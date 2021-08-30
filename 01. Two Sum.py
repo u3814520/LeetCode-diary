@@ -5,3 +5,5 @@ class Solution:
                 a = nums[i]+nums[j]
                 if a == target:
                     return [i,j]
+
+                
