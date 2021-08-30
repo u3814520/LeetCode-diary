@@ -12,3 +12,5 @@ class Solution:
             return -num
         else:
             return 0
+
+        
