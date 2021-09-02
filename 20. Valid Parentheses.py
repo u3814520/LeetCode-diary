@@ -1,6 +1,6 @@
 class Solution:
     def isValid(self, s):
-        temp=[None]
+        temp=['temp']
         tempdist={')':'(','}':'{',']':'['}
         for i in s:
             if i in tempdist and tempdist[i]==temp[len(temp)-1]:
